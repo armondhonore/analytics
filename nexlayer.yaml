@@ -1,0 +1,9 @@
+application:
+  name: analytics
+  pods:
+    - name: app
+      image: "registry.nexlayer.io/user_01kece1xyh817dwff7wnarhkxd/analytics:19f20482aec"
+      path: /
+      servicePorts:
+        - 3000
+      vars: {}
